@@ -1,0 +1,98 @@
+body{
+    font-family: arial, sans-serif;
+    background-image: url(https://media.istockphoto.com/id/501484580/vector/baseball_pattern3.jpg?s=612x612&w=0&k=20&c=CKO10gNxShu94Htncv_hXohQyw8n2gfezM0ZFrBkXIY=);
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    font-size: large;
+}
+
+h1,p{
+    text-align: center;
+
+}
+
+label{
+    display: block;
+    margin: .5rem 0;
+    font-weight: bold;
+    margin-bottom: .5rem;
+}
+
+fieldset{
+    border: none;
+}
+
+.top{
+    background-color: rgba(222, 222, 222, .98);
+    border-radius: 15px;
+    width: 65vw;
+    max-width: 400px;
+    margin: auto;
+    height: 90px;
+    margin-bottom: 3px;
+} 
+
+.form{
+    background-color: rgba(222, 222, 222, .98);
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    width:80vw;
+    max-width: 600px;
+    margin: auto;
+}
+
+.radio{
+    vertical-align: middle;
+}
+
+textarea{
+    width: 100%;
+    height: 100px;
+}
+
+input[type="submit"]{
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type="text"], input[type="email"]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type="number"]{
+    width: 60px;
+    padding: 6px 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+legend{
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+input[type="radio"]{
+    margin: 0 1rem;
+}
+
+.pitch, .arm{
+    font-weight: 100;
+}
+
+.pitching-style{
+    margin-top: 1.5rem;
+}
